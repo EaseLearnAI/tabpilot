@@ -1,0 +1,13 @@
+{
+  "schemaVersion": 1,
+  "mcpServers": {
+    "tabpilot": {
+      "type": "stdio",
+      "command": "node",
+      "args": ["./server/tabpilot.mjs"],
+      "env": {},
+      "description": "TabPilot：在本机已登录的 Chrome 里，按对话分组（自动命名、自动收尾）做浏览器自动化。",
+      "timeout": 180000
+    }
+  }
+}

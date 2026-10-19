@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "name": "tabpilot",
+  "displayName": "TabPilot",
+  "version": "0.4.0",
+  "description": "在你自己已登录的 Chrome 里做浏览器自动化：每个对话一个独立命名、独立颜色的标签组（自动用对话标题命名），任务结束、对话归档或闲置 30 分钟自动关闭标签页。需要配合 TabPilot Chrome 扩展。",
+  "author": "EaseLearnAI",
+  "icon": "icon.png",
+  "darkIcon": "icon-dark.png",
+  "category": "Productivity",
+  "exampleQueries": [
+    "用 TabPilot 打开我的 GitHub 通知页，总结一下今天有什么需要处理的",
+    "用浏览器帮我在 X 上搜一下 MiniMax 最近的讨论，整理成要点",
+    "在我已登录的后台里把这个表单填好，提交前先给我确认"
+  ],
+  "apps": [],
+  "mcpServers": ["servers.mcp.json"],
+  "skills": ["skills/tabpilot-browser/SKILL.md"],
+  "hooks": ["hooks/hooks.json"]
+}

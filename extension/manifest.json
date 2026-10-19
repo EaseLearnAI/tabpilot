@@ -1,0 +1,23 @@
+{
+  "manifest_version": 3,
+  "name": "TabPilot",
+  "version": "0.4.0",
+  "description": "Let your local AI agent drive a dedicated, visible tab group in your own logged-in browser.",
+  "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAuAqQgcmxf9/9aiKCHaJ6TNailKXi19jnjjh8yTG2PvtcY2cUKTYo7mCu1L047crww0IruMRN1/7KVA/pIt1w9JYRIxPXfZTq40+k/QXND0wWGyYT6xo5Forq3hb+8pVBOwakc0V77DduaR7+J8D+AEnSwDnAveVjjZvkllvjFggo+2gDOVGS+pV7DccCM4qqmwtMNRRaiskotsurx5rS3FMUQvmFy5PJq0vddcnA5WqXWN3meiQW3vpKLf7RAqqHKV37lcjW7SOdMZyLd8jgjMTT3EXlI/JKY+C/ecNKTGPLGeNjRJCv+kUf9O01yTx2XHYlBNgiEr8IJ2toesSv9QIDAQAB",
+  "minimum_chrome_version": "116",
+  "permissions": [
+    "debugger",
+    "tabs",
+    "tabGroups",
+    "nativeMessaging",
+    "storage",
+    "alarms"
+  ],
+  "background": {
+    "service_worker": "worker.js",
+    "type": "module"
+  },
+  "action": {
+    "default_title": "TabPilot"
+  }
+}
